@@ -288,6 +288,10 @@ h1#Text1 {
   margin-top: 20px !important;
 }
 
-.espacio{
-  
+/*Aca responsivo de texto inicio*/
+
+@media (min-width: 400px){
+    .get-it #Text1 {
+        text-align: left;
+    }
 }
