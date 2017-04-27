@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <link rel="stylesheet" href="assets/css/Google-Style-Login.css">
+    <script type="text/javascript">
+        function val() {
+
+            if (frm.password.value == "") {
+                alert("Ingresa Clave.");
+                frm.password.focus();
+                return false;
+            }
+            if ((frm.password.value).length < 8) {
+                alert("Clave debe ser mayor a 6 digitos.");
+                frm.password.focus();
+                return false;
+            }
+
+            if (frm.confirmpassword.value == "") {
+                alert("Ingresa clave de confirmación.");
+                return false;
+            }
+            if (frm.confirmpassword.value != frm.password.value) {
+                alert("Las claves no coinciden.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default up">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="Espanol.html"><img src="assets/img/logoicon.png">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="menu" role="presentation"><a href="Ingresar.html">INICIAR SESIÓN</a></li>
+                    <li class="active menu" role="presentation"><a href="Registro.html">REGISTRARSE </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron hero3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="login-carde">
+                        <p class="profile-name-card"> <img class="center-block" src="assets/img/logo_color-06.png" class="profile-img-card"></p>
+                        <form class="form-signin" name="frm" method="post" action="C:\Users\User\Documents\GoBit\GoBitFront\src\pages\Home\Home.js"><span class="reauth-email"> </span>
+                            <input type="text" required placeholder="Ingresa usuario" autofocus class=" margen form-control" id="inputUser" />
+                            <input class="margen form-control" type="email" required placeholder="Ingresar Correo" autofocus id="inputEmail" />
+                            <input type="password" required placeholder="Clave" class="margen form-control" id="password" />
+                            <input type="password" required placeholder="Confirmar Clave" class="margen form-control" id="confirmpassword" />
+                            <div class="checkbox"></div>
+                            <button class="menu botontree btn-block btn-lg btn-signin" type="submit" onclick="return val();">REGISTRAR </button>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-push-7 phone-preview">
+                    <div class="iphone-mockup">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="testimonials"></section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

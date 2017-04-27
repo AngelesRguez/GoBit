@@ -1,0 +1,293 @@
+.navbar {
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar-brand .glyphicon {
+    margin-right: 6px;
+}
+
+.hero {
+    background: url(../../assets/img/city_bg.jpg) no-repeat center;
+    background-size: cover;
+    border: none;
+    min-height: calc(100vh - 263px);
+}
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: calc(100vh - 70px);
+    background: rgba(4, 187, 132, 1);
+    background: -moz-linear-gradient(top, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(40%, rgba(4, 187, 132, 1)), color-stop(100%, rgba(62, 189, 190, 1)));
+    background: -webkit-linear-gradient(top, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    background: -o-linear-gradient(top, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    background: linear-gradient(to bottom, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#04bb84', endColorstr='#3ebdbe', GradientType=0);
+}
+
+.hero3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: calc(100vh - 70px);
+    background: rgba(4, 187, 132, 1);
+    background: -moz-linear-gradient(top, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(40%, rgba(4, 187, 132, 1)), color-stop(100%, rgba(62, 189, 190, 1)));
+    background: -webkit-linear-gradient(top, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    background: -o-linear-gradient(top, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    background: linear-gradient(to bottom, rgba(4, 187, 132, 1) 40%, rgba(62, 189, 190, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#04bb84', endColorstr='#3ebdbe', GradientType=0);
+}
+
+@media (min-width:992px) {
+    .hero .get-it {
+        text-align: right;
+        margin-top: 80px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .hero .get-it {
+        text-align: center;
+    }
+}
+
+@media (max-width:992px) {
+    .hero .phone-preview {
+        text-align: center;
+    }
+}
+
+.hero .get-it h1,
+.hero .get-it p {
+    color: #28b62c;
+    margin-bottom: 30px;
+}
+
+.hero .get-it .btn {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    text-shadow: none;
+}
+
+div.iphone-mockup {
+    position: relative;
+    max-width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.iphone-mockup img.device {
+    width: 100%;
+    height: auto;
+}
+
+.iphone-mockup .screen {
+    position: absolute;
+    width: 88%;
+    height: 77%;
+    top: 12%;
+    border-radius: 2px;
+    left: 6%;
+    border: 1px solid #444;
+    background-color: #aaa;
+    overflow: hidden;
+    background: url(../../assets/img/vistas-APP-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.iphone-mockup .screen:before {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 70%;
+    height: 140%;
+    top: -12%;
+    right: -60%;
+    transform: rotate(-19deg);
+    opacity: 0.2;
+}
+
+.icon-feature {
+    text-align: center;
+}
+
+.icon-feature .glyphicon {
+    font-size: 60px;
+}
+
+section.features {
+    background-color: #45ba77;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.features h2 {
+    color: #fff;
+}
+
+.features .icon-features {
+    margin-top: 15px;
+}
+
+.testimonials blockquote {
+    text-align: center;
+}
+
+section.testimonials {
+    ;
+}
+
+.site-footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .site-footer h5 {
+        text-align: left;
+    }
+}
+
+.site-footer h5 {
+    color: inherit;
+    font-size: 20px;
+}
+
+.site-footer .social-icons a:hover {
+    opacity: 1;
+}
+
+.site-footer .social-icons a {
+    display: inline-block;
+    width: 32px;
+    border: none;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 4px;
+    color: #fff;
+    text-align: center;
+    background-color: #798FA5;
+    height: 32px;
+    opacity: 0.8;
+    line-height: 32px;
+}
+
+@media (min-width:768px) {
+    .site-footer .social-icons {
+        text-align: right;
+    }
+}
+
+h1#Text1 {
+    text-align: right;
+    font-size: 65px !important;
+    color: black;
+    font-family: 'Roboto', sans-serif, bold;
+}
+
+.up {
+    height: 70px !important;
+}
+
+.menu {
+    margin-top: 10px !important;
+}
+
+.letterone {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.wt {
+    font-size: 20px !important;
+}
+
+.botonone {
+    color: #45ba77;
+    text-decoration: none !important;
+    font-size: 17px;
+    border: 1px solid #45ba77 !important;
+    padding: 10px 20px 10px 18px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 25px !important;
+}
+
+.botonone:hover {
+    background-color: #45ba77;
+    color: white;
+}
+
+.botontwo {
+    color: #40bbb9;
+    text-decoration: none !important;
+    font-size: 17px;
+    border: 1px solid #40bbb9 !important;
+    padding: 10px 20px 10px 18px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botontwo:hover {
+    background-color: #40bbb9;
+    color: white;
+}
+
+.botontree {
+    background-color: #45ba77;
+    color: white;
+    text-decoration: none !important;
+    font-size: 17px;
+    padding: 10px 20px 10px 18px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 25px !important;
+    margin-bottom: 20px;
+    border: none !important;
+}
+
+.botontree:hover {
+    background-color: #2d794e;
+    border: none !important;
+}
+
+.jumbotron p {
+    color: black !important;
+}
+
+.login-carde {
+    max-width: 350px;
+    padding: 40px 40px;
+    background-color: #fff !important;
+    margin: 0 auto 25px !important;
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-carde img {
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.margen{
+  margin-bottom: 10px !important;
+}
+
+.margen2{
+  margin-top: 20px !important;
+}
+
+.espacio{
+  
+}
