@@ -290,7 +290,7 @@ h1#Text1 {
 
 /*Aca responsivo de texto inicio*/
 
-@media (min-width: 400px){
+@media (max-width: 400px){
     .get-it #Text1 {
         text-align: left;
     }
